@@ -1,0 +1,53 @@
+﻿@model IEnumerable<AlisverisProje.Models.Detail>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Listeler </h1>
+
+<p>
+    <a asp-action="Create">Yeni Liste Oluştur</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DetailName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DetailText)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DetailName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DetailText)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.UrunAd)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Listeni Düzenle</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Liste Detayı Gör</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Listeyi Sil</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

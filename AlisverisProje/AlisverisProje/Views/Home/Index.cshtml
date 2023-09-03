@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Hoşgeldin ! </h1>
+    <br></br>
+    <div>
+        <a href="@Url.Action("Index", "Products")" class="btn btn-primary">Ürün Listesi</a>
+    </div>
+    <br></br>
+    
+    <div>
+        <a href="@Url.Action("Index", "Details")" class="btn btn-primary">Liste Oluştur</a>
+    </div>
+    <br></br>
+   
+    <div>
+        <a href="@Url.Action("Index", "Lists")" class="btn btn-primary">Listeleri Gör</a>
+    </div>
+    <br></br>
+
+    <div>
+        <a href="@Url.Action("Index", "Categories")" class="btn btn-primary">Kategori Ekle</a>
+    </div>
+    <br></br>
+    
+    <p>User Id : @ViewData["UserID"] </p>
+</div>

@@ -1,0 +1,6 @@
+C:\Users\ipeka\Desktop\Projeler\AlisverisListelemeProjesi\AlisverisProje\AlisverisProje\obj\Debug\net7.0\AlisverisProje.fsproj.AssemblyReference.cache
+C:\Users\ipeka\Desktop\Projeler\AlisverisListelemeProjesi\AlisverisProje\AlisverisProje\obj\Debug\net7.0\AlisverisProje.AssemblyInfoInputs.cache
+C:\Users\ipeka\Desktop\Projeler\AlisverisListelemeProjesi\AlisverisProje\AlisverisProje\obj\Debug\net7.0\AlisverisProje.AssemblyInfo.fs
+C:\Users\ipeka\Desktop\Projeler\AlisverisListelemeProjesi\AlisverisProje\AlisverisProje\obj\Debug\net7.0\AlisverisProje.fsproj.CoreCompileInputs.cache
+C:\Users\ipeka\Desktop\Projeler\AlisverisListelemeProjesi\AlisverisProje\AlisverisProje\obj\Debug\net7.0\AlisverisProje.MvcApplicationPartsAssemblyInfo.fs
+C:\Users\ipeka\Desktop\Projeler\AlisverisListelemeProjesi\AlisverisProje\AlisverisProje\obj\Debug\net7.0\AlisverisProje.MvcApplicationPartsAssemblyInfo.cache
